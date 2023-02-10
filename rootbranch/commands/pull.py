@@ -1,8 +1,9 @@
 import click
 
 @click.command()
-def cli(name):
+def cli():
     """
-        Pulls every repository and updates them.
+        Pulls every changes for your directories. In case of having changes
+        stashes them and then pulls.
     """
-    print(f'We are pulling :)')
+    pass
